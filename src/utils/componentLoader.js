@@ -3,18 +3,22 @@ import { lazy } from "react";
 // Import all components from algorithms folder (supports .js, .jsx, .tsx)
 const modules = import.meta.glob("../algorithms/**/*.{js,jsx,tsx}");
 
-// Helper function to dynamically import component
 const createLazyComponent = (category, componentName) => {
-  const path = `../algorithms/${category}/${componentName}.jsx`;
-  const importer = modules[path];
-  console.log(importer);
-  if (!importer) {
+  // Try to find a matching module path regardless of extension
+  const pathKey = Object.keys(modules).find(
+    (key) =>
+      key.endsWith(`/algorithms/${category}/${componentName}.jsx`) ||
+      key.endsWith(`/algorithms/${category}/${componentName}.js`) ||
+      key.endsWith(`/algorithms/${category}/${componentName}.tsx`)
+  );
+
+  if (!pathKey) {
     console.error(`Component not found: ${category}/${componentName}`);
     return lazy(() => import("./FallbackComponent"));
   }
 
   return lazy(() =>
-    importer().catch((error) => {
+    modules[pathKey]().catch((error) => {
       console.error(
         `Failed to load component: ${category}/${componentName}`,
         error
@@ -24,7 +28,9 @@ const createLazyComponent = (category, componentName) => {
   );
 };
 
-// Dynamic component loader with caching
+/**
+ * Dynamic component loader with caching
+ */
 export const loadComponent = (category, componentName) => {
   const cacheKey = `${category}-${componentName}`;
   if (!loadComponent._cache) loadComponent._cache = {};
@@ -39,7 +45,6 @@ export const loadComponent = (category, componentName) => {
   return loadComponent._cache[cacheKey];
 };
 
-// Batch load all components from a category
 export const loadCategoryComponents = (category, componentNames) => {
   const components = {};
   componentNames.forEach((name) => {
@@ -48,7 +53,6 @@ export const loadCategoryComponents = (category, componentNames) => {
   return components;
 };
 
-// Preload algorithm components (optional)
 export const preloadComponents = (questionsData) => {
   Object.entries(questionsData).forEach(([category, questions]) => {
     questions.forEach((question) => {
