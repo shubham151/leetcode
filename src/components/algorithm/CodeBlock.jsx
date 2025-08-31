@@ -14,3 +14,5 @@ const CodeBlock = ({
     </div>
   );
 };
+
+export default CodeBlock;
