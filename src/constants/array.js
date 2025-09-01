@@ -81,4 +81,13 @@ export const arrayQuestions = [
     tags: ["Array", "Counting Sort", "Sorting"],
     component: "HeightChecker",
   },
+  {
+    id: "1394",
+    title: "1394. Find Lucky Integer in Array",
+    difficulty: "easy",
+    description:
+      "Find the largest lucky integer in the array. A lucky integer is one whose value equals its frequency.",
+    tags: ["Array", "Hash Table", "Counting"],
+    component: "FindLucky",
+  },
 ];
