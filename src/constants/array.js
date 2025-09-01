@@ -62,4 +62,14 @@ export const arrayQuestions = [
     tags: ["Array", "Hash Table", "Math", "Matrix"],
     component: "FindMissingAndRepeatedValues",
   },
+
+  {
+    id: "1189",
+    title: "1189. Maximum Number of Balloons",
+    difficulty: "easy",
+    description:
+      "Find the maximum number of times you can form the word 'balloon' using the letters from the given text.",
+    tags: ["String", "Hash Table", "Counting"],
+    component: "MaxNumberOfBalloons",
+  },
 ];
