@@ -53,4 +53,13 @@ export const arrayQuestions = [
     tags: ["Array", "Cyclic Sort", "Hash Table"],
     component: "FindDisappearedNumbers",
   },
+  {
+    id: "2965",
+    title: "2965. Find Missing and Repeated Values",
+    difficulty: "easy",
+    description:
+      "Find the repeated and missing values in an n×n grid that should contain numbers from 1 to n².",
+    tags: ["Array", "Hash Table", "Math", "Matrix"],
+    component: "FindMissingAndRepeatedValues",
+  },
 ];
