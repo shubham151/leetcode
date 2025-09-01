@@ -72,4 +72,13 @@ export const arrayQuestions = [
     tags: ["String", "Hash Table", "Counting"],
     component: "MaxNumberOfBalloons",
   },
+  {
+    id: "1051",
+    title: "1051. Height Checker",
+    difficulty: "easy",
+    description:
+      "Count how many students are not standing in the expected position when sorted by height.",
+    tags: ["Array", "Counting Sort", "Sorting"],
+    component: "HeightChecker",
+  },
 ];
