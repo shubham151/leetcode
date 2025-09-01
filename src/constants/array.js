@@ -44,4 +44,13 @@ export const arrayQuestions = [
     tags: ["Array", "HashMap", "String", "Counting"],
     component: "KthDistinct",
   },
+  {
+    id: "448",
+    title: "448. Find All Numbers Disappeared in Array",
+    difficulty: "easy",
+    description:
+      "Find all numbers in range [1, n] that are missing from the array using O(1) extra space.",
+    tags: ["Array", "Cyclic Sort", "Hash Table"],
+    component: "FindDisappearedNumbers",
+  },
 ];
