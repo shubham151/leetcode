@@ -26,4 +26,13 @@ export const arrayQuestions = [
     tags: ["Array", "Greedy", "Sliding Window"],
     component: "MaxAscendingSum",
   },
+  {
+    id: "724",
+    title: "724. Find Pivot Index",
+    difficulty: "easy",
+    description:
+      "Find the pivot index where the sum of left elements equals the sum of right elements.",
+    tags: ["Array", "Prefix Sum"],
+    component: "PivotIndex",
+  },
 ];
