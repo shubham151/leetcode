@@ -35,4 +35,13 @@ export const arrayQuestions = [
     tags: ["Array", "Prefix Sum"],
     component: "PivotIndex",
   },
+  {
+    id: "2053",
+    title: "2053. Kth Distinct String in Array",
+    difficulty: "easy",
+    description:
+      "Return the kth distinct string present in the array. If there are fewer than k distinct strings, return an empty string.",
+    tags: ["Array", "HashMap", "String", "Counting"],
+    component: "KthDistinct",
+  },
 ];
