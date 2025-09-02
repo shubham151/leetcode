@@ -4,6 +4,7 @@ import { treeQuestions } from "./tree.js";
 import { stackQuestions } from "./stack.js";
 import { dynamicProgrammingQuestions } from "./dynamic-programming.js";
 import { stringQuestions } from "./string.js";
+import { triesQuestions } from "./tries.js";
 
 // Category metadata
 export const categories = [
@@ -42,6 +43,12 @@ export const categories = [
     title: "String",
     description: "Pattern matching, manipulation, and substring algorithms",
   },
+
+  {
+    id: "tries",
+    title: "Tries",
+    description: "Tries",
+  },
 ];
 
 export const questionsData = {
@@ -51,4 +58,5 @@ export const questionsData = {
   stack: stackQuestions,
   "dynamic-programming": dynamicProgrammingQuestions,
   string: stringQuestions,
+  tries: triesQuestions,
 };
