@@ -108,4 +108,13 @@ export const arrayQuestions = [
     tags: ["Array", "Two Pointers"],
     component: "CheckSortedRotated",
   },
+  {
+    id: "896",
+    title: "896. Monotonic Array",
+    difficulty: "easy",
+    description:
+      "Check if an array is monotonic - either entirely non-decreasing or entirely non-increasing.",
+    tags: ["Array"],
+    component: "MonotonicArray",
+  },
 ];
