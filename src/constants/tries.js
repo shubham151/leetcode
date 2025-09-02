@@ -8,4 +8,13 @@ export const triesQuestions = [
     tags: ["Design", "Trie", "Hash Table", "String"],
     component: "TrieDataStructure",
   },
+  {
+    id: "211",
+    title: "211. Design Add and Search Words Data Structure",
+    difficulty: "medium",
+    description:
+      "Design a data structure that supports adding new words and finding if a string matches any previously added string with '.' wildcard support.",
+    tags: ["Design", "Trie", "String", "DFS"],
+    component: "WordDictionary",
+  },
 ];
