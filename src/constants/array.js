@@ -99,4 +99,13 @@ export const arrayQuestions = [
     tags: ["Array", "Math", "Parity"],
     component: "IsArraySpecial",
   },
+  {
+    id: "1752",
+    title: "1752. Check if Array Is Sorted and Rotated",
+    difficulty: "easy",
+    description:
+      "Check if an array was originally sorted in non-decreasing order, then rotated some number of positions.",
+    tags: ["Array", "Two Pointers"],
+    component: "CheckSortedRotated",
+  },
 ];
