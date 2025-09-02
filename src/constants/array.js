@@ -117,4 +117,13 @@ export const arrayQuestions = [
     tags: ["Array"],
     component: "MonotonicArray",
   },
+  {
+    id: "2206",
+    title: "2206. Divide Array Into Equal Pairs",
+    difficulty: "easy",
+    description:
+      "Check if you can divide an array into pairs where both elements in each pair are equal.",
+    tags: ["Array", "Hash Table", "Counting"],
+    component: "DivideArrayPairs",
+  },
 ];
