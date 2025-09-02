@@ -90,4 +90,13 @@ export const arrayQuestions = [
     tags: ["Array", "Hash Table", "Counting"],
     component: "FindLucky",
   },
+  {
+    id: "3151",
+    title: "3151. Special Array I",
+    difficulty: "easy",
+    description:
+      "Check if an array is special - no two adjacent elements have the same parity (both odd or both even).",
+    tags: ["Array", "Math", "Parity"],
+    component: "IsArraySpecial",
+  },
 ];
