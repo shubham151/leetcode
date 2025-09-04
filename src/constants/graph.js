@@ -26,4 +26,13 @@ export const graphQuestions = [
     tags: ["DFS", "BFS", "Graph", "HashMap"],
     component: "CloneGraph",
   },
+  {
+    id: "994",
+    title: "994. Rotting Oranges",
+    difficulty: "medium",
+    description:
+      "Determine the minimum number of minutes that must elapse until no cell has a fresh orange, or return -1 if impossible.",
+    tags: ["BFS", "Graph", "Matrix", "Queue"],
+    component: "OrangesRotting",
+  },
 ];
