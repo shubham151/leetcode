@@ -35,4 +35,13 @@ export const graphQuestions = [
     tags: ["BFS", "Graph", "Matrix", "Queue"],
     component: "OrangesRotting",
   },
+  {
+    id: "417",
+    title: "417. Pacific Atlantic Water Flow",
+    difficulty: "medium",
+    description:
+      "Find all coordinates in a matrix where water can flow to both the Pacific and Atlantic oceans.",
+    tags: ["DFS", "BFS", "Graph", "Matrix"],
+    component: "PacificAtlantic",
+  },
 ];
