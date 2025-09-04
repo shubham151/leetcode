@@ -17,4 +17,13 @@ export const graphQuestions = [
     tags: ["DFS", "BFS", "Graph", "Matrix"],
     component: "MaxAreaOfIsland",
   },
+  {
+    id: "133",
+    title: "133. Clone Graph",
+    difficulty: "medium",
+    description:
+      "Clone an undirected graph given a reference node. Each node contains a value and list of neighbors.",
+    tags: ["DFS", "BFS", "Graph", "HashMap"],
+    component: "CloneGraph",
+  },
 ];
