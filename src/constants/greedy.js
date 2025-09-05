@@ -17,4 +17,13 @@ export const greedyQuestions = [
     tags: ["Greedy", "Array", "Dynamic Programming"],
     component: "JumpGame",
   },
+  {
+    id: "45",
+    title: "45. Jump Game II",
+    difficulty: "medium",
+    description:
+      "Given an array of non-negative integers where each element represents your maximum jump length, return the minimum number of jumps required to reach the last index.",
+    tags: ["Greedy", "BFS", "Array", "Dynamic Programming"],
+    component: "JumpGameII",
+  },
 ];
