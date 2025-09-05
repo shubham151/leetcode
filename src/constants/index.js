@@ -5,6 +5,7 @@ import { stackQuestions } from "./stack.js";
 import { dynamicProgrammingQuestions } from "./dynamic-programming.js";
 import { stringQuestions } from "./string.js";
 import { triesQuestions } from "./tries.js";
+import { greedyQuestions } from "./greedy.js";
 
 // Category metadata
 export const categories = [
@@ -47,7 +48,14 @@ export const categories = [
   {
     id: "tries",
     title: "Tries",
-    description: "Tries",
+    description:
+      "Prefix trees used for efficient string storage, search, autocomplete, and word problems",
+  },
+  {
+    id: "greedy",
+    title: "Greedy",
+    description:
+      "Optimization problems solved by making locally optimal choices that lead to a global solution",
   },
 ];
 
@@ -59,4 +67,5 @@ export const questionsData = {
   "dynamic-programming": dynamicProgrammingQuestions,
   string: stringQuestions,
   tries: triesQuestions,
+  greedy: greedyQuestions,
 };
