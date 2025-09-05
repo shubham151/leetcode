@@ -44,4 +44,13 @@ export const graphQuestions = [
     tags: ["DFS", "BFS", "Graph", "Matrix"],
     component: "PacificAtlantic",
   },
+  {
+    id: "130",
+    title: "130. Surrounded Regions",
+    difficulty: "medium",
+    description:
+      "Capture all regions surrounded by 'X' on a 2D board by flipping surrounded 'O's to 'X'. Border-connected 'O's remain unchanged.",
+    tags: ["DFS", "BFS", "Graph", "Matrix"],
+    component: "SurroundedRegions",
+  },
 ];
