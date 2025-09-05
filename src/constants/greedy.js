@@ -8,4 +8,13 @@ export const greedyQuestions = [
     tags: ["Array", "Dynamic Programming", "Divide and Conquer"],
     component: "MaximumSubarray",
   },
+  {
+    id: "55",
+    title: "55. Jump Game",
+    difficulty: "medium",
+    description:
+      "Given an array of non-negative integers where each element represents your maximum jump length, determine if you can reach the last index starting from the first.",
+    tags: ["Greedy", "Array", "Dynamic Programming"],
+    component: "JumpGame",
+  },
 ];
