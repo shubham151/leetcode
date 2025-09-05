@@ -26,4 +26,13 @@ export const greedyQuestions = [
     tags: ["Greedy", "BFS", "Array", "Dynamic Programming"],
     component: "JumpGameII",
   },
+  {
+    id: "134",
+    title: "134. Gas Station",
+    difficulty: "medium",
+    description:
+      "Given two integer arrays gas and cost, return the starting gas station index if you can travel around the circuit once in the clockwise direction, otherwise return -1.",
+    tags: ["Greedy", "Array"],
+    component: "GasStation",
+  },
 ];
