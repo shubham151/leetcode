@@ -8,4 +8,13 @@ export const treeQuestions = [
     tags: ["Tree", "DFS", "BFS", "Binary Tree"],
     component: "InvertBinaryTree",
   },
+  {
+    id: "104",
+    title: "104. Maximum Depth of Binary Tree",
+    difficulty: "easy",
+    description:
+      "Given the root of a binary tree, return its maximum depth (the number of nodes along the longest path from the root down to the farthest leaf node).",
+    tags: ["Tree", "DFS", "BFS", "Binary Tree"],
+    component: "MaxDepthBinaryTree",
+  },
 ];
