@@ -17,4 +17,13 @@ export const treeQuestions = [
     tags: ["Tree", "DFS", "BFS", "Binary Tree"],
     component: "MaxDepthBinaryTree",
   },
+  {
+    id: "543",
+    title: "543. Diameter of Binary Tree",
+    difficulty: "easy",
+    description:
+      "Given the root of a binary tree, return the length of the diameter of the tree. The diameter is the number of edges on the longest path between any two nodes.",
+    tags: ["Tree", "DFS", "Binary Tree"],
+    component: "DiameterBinaryTree",
+  },
 ];
