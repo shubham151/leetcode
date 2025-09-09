@@ -26,4 +26,13 @@ export const treeQuestions = [
     tags: ["Tree", "DFS", "Binary Tree"],
     component: "DiameterBinaryTree",
   },
+  {
+    id: "100",
+    title: "100. Same Tree",
+    difficulty: "easy",
+    description:
+      "Given the roots of two binary trees p and q, write a function to check if they are the same or not. Two binary trees are considered the same if they are structurally identical and have the same node values.",
+    tags: ["Tree", "DFS", "Binary Tree"],
+    component: "SameTree",
+  },
 ];
