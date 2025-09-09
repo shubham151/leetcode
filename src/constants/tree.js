@@ -35,4 +35,13 @@ export const treeQuestions = [
     tags: ["Tree", "DFS", "Binary Tree"],
     component: "SameTree",
   },
+  {
+    id: "572",
+    title: "572. Subtree of Another Tree",
+    difficulty: "easy",
+    description:
+      "Given the roots of two binary trees root and subRoot, return true if there is a subtree of root with the same structure and node values of subRoot, and false otherwise.",
+    tags: ["Tree", "DFS", "Binary Tree"],
+    component: "SubtreeOfAnotherTree",
+  },
 ];
