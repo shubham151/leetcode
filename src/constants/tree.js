@@ -44,4 +44,22 @@ export const treeQuestions = [
     tags: ["Tree", "DFS", "Binary Tree"],
     component: "SubtreeOfAnotherTree",
   },
+  {
+    id: "235",
+    title: "235. Lowest Common Ancestor of a Binary Search Tree",
+    difficulty: "medium",
+    description:
+      "Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes p and q in the BST.",
+    tags: ["Tree", "Binary Search Tree", "DFS"],
+    component: "LowestCommonAncestorBST",
+  },
+  {
+    id: "102",
+    title: "102. Binary Tree Level Order Traversal",
+    difficulty: "medium",
+    description:
+      "Given the root of a binary tree, return the level order traversal of its nodes' values (i.e., from left to right, level by level).",
+    tags: ["Tree", "BFS", "DFS", "Binary Tree"],
+    component: "LevelOrderTraversal",
+  },
 ];

@@ -53,13 +53,4 @@ export const graphQuestions = [
     tags: ["DFS", "BFS", "Graph", "Matrix"],
     component: "SurroundedRegions",
   },
-  {
-    id: "235",
-    title: "235. Lowest Common Ancestor of a Binary Search Tree",
-    difficulty: "medium",
-    description:
-      "Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes p and q in the BST.",
-    tags: ["Tree", "Binary Search Tree", "DFS"],
-    component: "LowestCommonAncestorBST",
-  },
 ];
