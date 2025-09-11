@@ -71,4 +71,13 @@ export const treeQuestions = [
     tags: ['Tree', 'BFS', 'DFS', 'Binary Tree'],
     component: 'RightSideView',
   },
+  {
+    id: '1448',
+    title: '1448. Count Good Nodes in Binary Tree',
+    difficulty: 'medium',
+    description:
+      'Given a binary tree, return the number of good nodes. A node is good if no node on the path from the root to it has a greater value.',
+    tags: ['Tree', 'DFS', 'Binary Tree'],
+    component: 'GoodNodes',
+  },
 ]
