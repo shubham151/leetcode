@@ -80,4 +80,13 @@ export const treeQuestions = [
     tags: ['Tree', 'DFS', 'Binary Tree'],
     component: 'GoodNodes',
   },
+  {
+    id: '98',
+    title: '98. Validate Binary Search Tree',
+    difficulty: 'medium',
+    description:
+      'Given the root of a binary tree, determine if it is a valid binary search tree (BST).',
+    tags: ['Tree', 'DFS', 'Binary Search Tree'],
+    component: 'IsValidBST',
+  },
 ]
