@@ -89,4 +89,13 @@ export const treeQuestions = [
     tags: ['Tree', 'DFS', 'Binary Search Tree'],
     component: 'IsValidBST',
   },
+  {
+    id: '230',
+    title: '230. Kth Smallest Element in a BST',
+    difficulty: 'medium',
+    description:
+      'Given the root of a BST and an integer k, return the kth smallest value (1-indexed) in the tree.',
+    tags: ['Tree', 'Binary Search Tree', 'DFS', 'Inorder Traversal'],
+    component: 'KthSmallestInBST',
+  },
 ]
