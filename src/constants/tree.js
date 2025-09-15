@@ -98,4 +98,13 @@ export const treeQuestions = [
     tags: ['Tree', 'Binary Search Tree', 'DFS', 'Inorder Traversal'],
     component: 'KthSmallestInBST',
   },
+  {
+    id: '124',
+    title: '124. Binary Tree Maximum Path Sum',
+    difficulty: 'hard',
+    description:
+      'Given the root of a binary tree, return the maximum path sum. A path is any sequence of nodes connected with parent-child edges, and it can start and end at any node.',
+    tags: ['Tree', 'DFS', 'Dynamic Programming'],
+    component: 'BinaryTreeMaxPathSum',
+  },
 ]
