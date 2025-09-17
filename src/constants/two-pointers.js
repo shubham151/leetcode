@@ -26,4 +26,13 @@ export const twoPointersQuestions = [
     tags: ['Array', 'Two Pointers', 'Sorting'],
     component: 'ThreeSum',
   },
+  {
+    id: '11',
+    title: '11. Container With Most Water',
+    difficulty: 'medium',
+    description:
+      'Given n non-negative integers height where each represents a point at coordinate (i, height[i]), n vertical lines are drawn. Find two lines that together with the x-axis form a container that holds the most water.',
+    tags: ['Array', 'Two Pointers', 'Greedy'],
+    component: 'ContainerWithMostWater',
+  },
 ]
