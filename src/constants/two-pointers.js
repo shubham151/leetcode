@@ -35,4 +35,13 @@ export const twoPointersQuestions = [
     tags: ['Array', 'Two Pointers', 'Greedy'],
     component: 'ContainerWithMostWater',
   },
+  {
+    id: '42',
+    title: '42. Trapping Rain Water',
+    difficulty: 'hard',
+    description:
+      'Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.',
+    tags: ['Array', 'Two Pointers', 'Dynamic Programming', 'Stack', 'Monotonic Stack'],
+    component: 'TrappingRainWater',
+  },
 ]
