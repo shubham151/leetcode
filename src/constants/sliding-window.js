@@ -17,4 +17,13 @@ export const slidingWindowQuestions = [
     tags: ['Hash Table', 'String', 'Sliding Window'],
     component: 'LongestSubstringWithoutRepeatingCharacters',
   },
+  {
+    id: '424',
+    title: '424. Longest Repeating Character Replacement',
+    difficulty: 'medium',
+    description:
+      'Given a string s and an integer k, return the length of the longest substring that can be obtained by replacing at most k characters so that all characters in the substring are the same.',
+    tags: ['Hash Table', 'String', 'Sliding Window'],
+    component: 'LongestRepeatingCharacterReplacement',
+  },
 ]
