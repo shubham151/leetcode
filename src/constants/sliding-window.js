@@ -8,4 +8,13 @@ export const slidingWindowQuestions = [
     tags: ['Array', 'Dynamic Programming'],
     component: 'BestTimeToBuySellStock',
   },
+  {
+    id: '3',
+    title: '3. Longest Substring Without Repeating Characters',
+    difficulty: 'medium',
+    description:
+      'Given a string s, find the length of the longest substring without repeating characters.',
+    tags: ['Hash Table', 'String', 'Sliding Window'],
+    component: 'LongestSubstringWithoutRepeatingCharacters',
+  },
 ]
