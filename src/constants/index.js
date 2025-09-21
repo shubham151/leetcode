@@ -7,6 +7,7 @@ import { stringQuestions } from './string.js'
 import { triesQuestions } from './tries.js'
 import { greedyQuestions } from './greedy.js'
 import { twoPointersQuestions } from './two-pointers.js'
+import { slidingWindowQuestions } from './sliding-window.js'
 
 // Category metadata
 export const categories = [
@@ -59,6 +60,12 @@ export const categories = [
     description:
       'Technique for solving problems by maintaining two pointers to iterate through data structures, often used for searching, sorting, and partitioning arrays or linked lists',
   },
+  {
+    id: 'sliding-window',
+    title: 'Sliding Window',
+    description:
+      'Optimize problems involving arrays or lists by maintaining a subset of elements (a "window") that can be moved across the input. ',
+  },
 ]
 
 export const questionsData = {
@@ -71,4 +78,5 @@ export const questionsData = {
   'tries': triesQuestions,
   'greedy': greedyQuestions,
   'two-pointers': twoPointersQuestions,
+  'sliding-window': slidingWindowQuestions,
 }
